@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(231, 231, 231); 
+}
+
+.header{
+    position:sticky;
+    top:0px;
+}
+.messages{
+    border:0.4px solid rgb(187, 186, 186); 
+    width:28.8rem;
+    /* margin-left:20px; */
+    float:right;
+    
+}
+.messages{
+position:sticky;
+bottom:0px;
+padding:4px;
+height:47px;
+background-color: aliceblue;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+
+}
+.mess-box1{
+    width:176px;
+    margin:0px 4px;
+    
+    float:left;
+}
+.mess-box1 i{
+    font-size:32px;
+    color:rgb(94, 93, 93);
+}
+.mess-box1 h2{
+    display: inline-block;
+    position:relative;
+    top:50%;
+    transform:translate(0,-30%);
+    color:rgb(94, 93, 93);
+}
+.messages .mess-box2 i{
+    font-size:14px;
+    padding:8px; 
+}
+.discover{
+    float:left;
+}
